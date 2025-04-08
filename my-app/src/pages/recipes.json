@@ -1,0 +1,126 @@
+{
+    "categories": [
+      {
+        "name": "Breakfast",
+        "children": [
+          { "name": "Smoothies" },
+          { "name": "Pancakes" }
+        ]
+      },
+      {
+        "name": "Lunch",
+        "children": [
+          { "name": "Sandwiches" },
+          { "name": "Salads" }
+        ]
+      },
+      {
+        "name": "Dinner",
+        "children": [
+          { "name": "Pasta" },
+          { "name": "Stir Fry" }
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "id": 1,
+        "title": "Avocado Toast",
+        "category": "Breakfast > Sandwiches",
+        "image": "https://example.com/images/avocado-toast.jpg",
+        "cookTime": "10 minutes",
+        "ingredients": [
+          "2 slices of bread",
+          "1 ripe avocado",
+          "Salt",
+          "Pepper",
+          "Lemon juice"
+        ],
+        "instructions": [
+          "Toast the bread slices.",
+          "Mash the avocado with salt, pepper, and lemon juice.",
+          "Spread the avocado mash onto the toast."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Berry Smoothie",
+        "category": "Breakfast > Smoothies",
+        "image": "https://example.com/images/berry-smoothie.jpg",
+        "cookTime": "5 minutes",
+        "ingredients": [
+          "1/2 cup blueberries",
+          "1/2 cup strawberries",
+          "1 banana",
+          "1/2 cup almond milk",
+          "Ice cubes"
+        ],
+        "instructions": [
+          "Add all ingredients to a blender.",
+          "Blend until smooth.",
+          "Pour into a glass and serve immediately."
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Grilled Chicken Salad",
+        "category": "Lunch > Salads",
+        "image": "https://example.com/images/chicken-salad.jpg",
+        "cookTime": "20 minutes",
+        "ingredients": [
+          "1 chicken breast",
+          "2 cups mixed greens",
+          "Cherry tomatoes",
+          "Cucumber",
+          "Salad dressing of choice"
+        ],
+        "instructions": [
+          "Grill the chicken until fully cooked and slice it.",
+          "Toss the greens, tomatoes, and cucumber in a bowl.",
+          "Top with grilled chicken and dressing."
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Spaghetti Bolognese",
+        "category": "Dinner > Pasta",
+        "image": "https://example.com/images/spaghetti.jpg",
+        "cookTime": "30 minutes",
+        "ingredients": [
+          "200g spaghetti",
+          "1/2 onion",
+          "1 garlic clove",
+          "200g ground beef",
+          "Tomato sauce",
+          "Salt and pepper"
+        ],
+        "instructions": [
+          "Boil spaghetti until al dente.",
+          "Sauté onion and garlic, then add ground beef and cook.",
+          "Add tomato sauce and simmer.",
+          "Serve sauce over spaghetti."
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Veggie Stir Fry",
+        "category": "Dinner > Stir Fry",
+        "image": "https://example.com/images/stir-fry.jpg",
+        "cookTime": "15 minutes",
+        "ingredients": [
+          "1 bell pepper",
+          "1 zucchini",
+          "1 carrot",
+          "Soy sauce",
+          "Olive oil",
+          "Garlic"
+        ],
+        "instructions": [
+          "Chop all veggies.",
+          "Heat oil in a pan and sauté garlic.",
+          "Add veggies and stir fry for 5-7 minutes.",
+          "Add soy sauce and cook for 2 more minutes."
+        ]
+      }
+    ]
+  }
